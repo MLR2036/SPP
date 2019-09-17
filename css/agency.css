@@ -15,8 +15,8 @@
 
  @font-face {
   font-family: 'orbitronbold';
-  src: "../css/orbitron-bold-webfont.woff2" format('woff2'),
-       "../css/orbitron-bold-webfont.woff" format('woff');
+    src: url('orbitron-bold-webfont.woff2') format('woff2'),
+         url('orbitron-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -213,7 +213,7 @@ img::-moz-selection {
 header.masthead {
   text-align: left;
   color: white;
-  background-image: url(../img/logos/placeholder.jpg);
+  background-image: url(../img/logos/placeholder.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -239,11 +239,10 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 50px; 
   line-height: 50px;
   margin-bottom: 25px;
-  font-family: 'Orbitron', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'orbitronbold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';;
 }
 
 header.masthead .intro-text .intro-heading::first-letter {
@@ -268,7 +267,7 @@ header.masthead .intro-text .intro-heading::first-letter {
     font-weight: 700;
     line-height: 0px;
     margin-bottom: 50px;
-    font-family: 'Orbitron', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'orbitronbold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
 }
 
